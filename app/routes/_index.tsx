@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
-
+import Hero from "../comps/Hero.jsx"
 
 export const meta: MetaFunction = () => {
   return [
@@ -13,15 +13,8 @@ export default function Index() {
     <div className="homepage">
       <div className="container">
 
-        <div className="hero  grid sm:grid-cols-2 h-[400px]">
-          <div className="bg-green-200">()</div>
-          <div className="bg-blue-200" >
-            <h2 className="text-5xl text-cyan-500"> Hello!</h2>
-            <p>I'm <b>Ismail</b>, a <br />
-              Shopify developer
-              based in Morocco.</p>
-          </div>
-
+        <div className="hero-section">
+          <Hero />
         </div>
 
       </div>

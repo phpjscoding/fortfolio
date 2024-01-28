@@ -3,7 +3,7 @@
     "remix.env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "app/comps/Header.jsx"
+    "app/comps/Header.tsx"
   ],
   "compilerOptions": {
     "lib": [

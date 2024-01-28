@@ -8,12 +8,12 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import stylesheet from "~/tailwind.css";
-import Header from './comps/Header'
+import stylesheet from "./tailwind.css";
+// import Header from './comps/Header'
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
 ];
-
+// import Header from "./comps/Header";
 
 export default function App() {
   return (
@@ -25,11 +25,23 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Header />
-        <Outlet />
+
+        <div className="h-screen flex flex-col">
+          <Outlet />
+          <div className="et-hero-tabs-container mt-auto">
+            <a className="et-hero-tab" href="#blog">Blog</a>
+            <a className="et-hero-tab" href="#about">about</a>
+            <a className="et-hero-tab" href="#projects">projects</a>
+
+            <span className="et-hero-tab-slider"></span>
+          </div>
+        </div>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+
+
+
       </body>
     </html>
   );
