@@ -10,8 +10,9 @@ import {
 
 import stylesheet from "./tailwind.css";
 // import Header from './comps/Header'
-export const links: LinksFunction = () => [
+export const links = () => [
   { rel: "stylesheet", href: stylesheet },
+  { rel: "stylesheet", href: "https://fonts.cdnfonts.com/css/anton" }
 ];
 // import Header from "./comps/Header";
 
@@ -28,13 +29,13 @@ export default function App() {
 
         <div className="h-screen flex flex-col">
           <Outlet />
-          <div className="et-hero-tabs-container mt-auto">
-            <a className="et-hero-tab" href="#blog">Blog</a>
-            <a className="et-hero-tab" href="#about">about</a>
-            <a className="et-hero-tab" href="#projects">projects</a>
+        </div>
+        <div className="et-hero-tabs-container fixed bottom-0 w-full">
+          <a className="et-hero-tab" href="#blog">Blog</a>
+          <a className="et-hero-tab" href="#about">about</a>
+          <a className="et-hero-tab" href="#projects">projects</a>
 
-            <span className="et-hero-tab-slider"></span>
-          </div>
+          <span className="et-hero-tab-slider"></span>
         </div>
         <ScrollRestoration />
         <Scripts />
