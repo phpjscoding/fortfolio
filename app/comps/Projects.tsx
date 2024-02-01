@@ -3,7 +3,7 @@ export default function Products() {
         <div className="w-full px-4">
             <section className="min-h-screen pt-24">
                 <div className="container mx-auto">
-                    <div className="flex justify-around">
+                    <div className="flex justify-around  usm:flex-col">
                         <div className="mb-24 text-left">
                             <p className="text-5xl text-white"> 3elegant </p>
                         </div>
@@ -21,8 +21,8 @@ export default function Products() {
 
                         </div>
                     </div>
-                    <div className="flex max-h-[400px] items-center justify-center mt-12">
-                        <div>
+                    <div className="flex md:max-h-[400px] items-center justify-center mt-12 usm:flex-col">
+                        <div className="usm:mb-12">
                             <img src="/assets/m.png" alt="" height={300} />
                         </div>
                         <div>
@@ -31,7 +31,7 @@ export default function Products() {
                     </div>
 
 
-                    <h3 className="text-2xl text-gray-400 my-24 w-[60ch] mx-auto text-center">
+                    <h3 className="text-2xl usm:text-lg text-gray-400 my-24 w-[60ch] mx-auto text-center usm:w-[30ch]">
                         <i>In This projects I've converted a Figma design to a Shopify
                             store,using HTML/CSS/Liquid/Javasript/Tailwind/Git</i>
 
@@ -51,7 +51,7 @@ export default function Products() {
                     <img src="/assets/garden.png" alt="" height={300} />
                 </div>
 
-                <h3 className="text-2xl text-gray-400 my-24 w-[60ch] mx-auto text-center">
+                <h3 className="text-2xl usm:text-lg text-gray-400 my-24 usm:w-[30ch] mx-auto text-center">
                     <i>
                         I've developed this blog using Nuxt,.mdx files,and Tailwind, deployed it on render.com, and monetized it with Ezoic </i>
 
@@ -60,4 +60,3 @@ export default function Products() {
         </div>
     );
 }
-// cameron@adlib-recruitment.co.uk.

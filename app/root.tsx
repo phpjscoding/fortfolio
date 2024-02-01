@@ -1,4 +1,3 @@
-import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -31,9 +30,9 @@ export default function App() {
           <Outlet />
         </div>
         <div className="et-hero-tabs-container fixed bottom-0 w-full">
-          <a className="et-hero-tab" href="#blog">Blog</a>
-          <a className="et-hero-tab" href="#about">about</a>
-          <a className="et-hero-tab" href="#projects">projects</a>
+          <a className="et-hero-tab" href="/blog">Blog</a>
+          <a className="et-hero-tab" href="/">about</a>
+          <a className="et-hero-tab" href="/projects">projects</a>
 
           <span className="et-hero-tab-slider"></span>
         </div>
