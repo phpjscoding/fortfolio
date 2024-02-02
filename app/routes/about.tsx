@@ -1,3 +1,10 @@
+export const meta = () => {
+    return [
+        { title: "Ismail O'talb" },
+        { name: "description", content: "Shopify Developer based in morocco" },
+    ];
+};
+
 export default function About() {
     return (
 

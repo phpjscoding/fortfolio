@@ -21,7 +21,10 @@ export default function Hero(){
          </button>
    </div>
 <audio ref={audioRef} track="" src="/assets/name.mp3" type="audio/mpeg"></audio>
-    <h2 className="role"> Shopify developer <br /> based in Morocco </h2>
+       <div className="">
+        <img src="/assets/shopify.png" alt="" width={60}/>
+       </div>
+    <h2 className="role"> JR Shopify developer  based in Morocco </h2>
      <Marquee />
     <ul className="socials-icons flex items-center justify-center gap-4 mt-32">
       <li  className="max-w-[50px] ">
