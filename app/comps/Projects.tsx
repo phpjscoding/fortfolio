@@ -40,7 +40,7 @@ export default function Products() {
 
             </section>
             <hr className="w-full my-24" />
-            <section className="min-h-screen ">
+            <section className="min-h-screen">
                 <p className="text-center">
                     <a href="https://www.innergarden.uk/" className="underline">
                         <small>innergarden.uk</small>
