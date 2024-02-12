@@ -24,7 +24,7 @@ export default function Hero(){
        <div className="">
         <img src="/assets/shopify.png" alt="" width={60}/>
        </div>
-    <h2 className="role"> Mid Shopify developer  based in Morocco </h2>
+    <h2 className="role"> Shopify Custom coding expert  based in Morocco </h2>
      <Marquee />
     <ul className="socials-icons flex items-center justify-center gap-4 mt-32">
       <li  className="max-w-[50px] ">
