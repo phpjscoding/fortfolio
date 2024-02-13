@@ -14,8 +14,8 @@ export default function Hero(){
  
 <main className="et-main  mx-auto umd:mt-32 umd:pb-[200px] ">
   <section className="et-slide" >
-   <div className="flex">
-   <h1 className="dev-name"> Ismail O'talb </h1>
+   <div className="flex usm:flex-col usm:items-center">
+   <h1 className="text-7xl sm:text-9xl uppercase"> Ismail O'talb </h1>
     <button onClick={handlePlay} className="py-4 self-bottom">
         <img src="/assets/spell.png" alt="" height={20} width={34} className="filter invert"/>
          </button>
@@ -25,6 +25,7 @@ export default function Hero(){
         <img src="/assets/shopify.png" alt="" width={60}/>
        </div>
     <h2 className="role"> Front-end Shopify developer based in Morocco </h2>
+    <div> <small>Remote freelancer</small> </div>
      <Marquee />
     <ul className="socials-icons flex items-center justify-center gap-4 mt-32">
       <li  className="max-w-[50px] ">

@@ -12,6 +12,8 @@ import stylesheet from "./tailwind.css";
 export const links = () => [
   { rel: "stylesheet", href: stylesheet },
   { rel: "stylesheet", href: "https://fonts.cdnfonts.com/css/anton" }
+
+
 ];
 // import Header from "./comps/Header";
 

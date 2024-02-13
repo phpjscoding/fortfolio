@@ -5,7 +5,7 @@ import { GrGraphQl } from "react-icons/gr";
 
 export default function Marquee() {
     return (
-        <div>
+        <div className='umd:max-w-[300px]'>
 
             <div className="marquee mx-auto mt-48 " style={{ overflow: 'hidden', maxWidth: '600px' }}>
                 <div className="marquee-content">

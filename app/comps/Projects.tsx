@@ -3,11 +3,11 @@ export default function Products() {
         <div className="w-full px-4">
             <section className="min-h-screen pt-24">
                 <div className="container mx-auto">
-                    <div className="flex justify-around  usm:flex-col">
+                    <div className="flex justify-around  usm:flex-col mb-24">
                         <div className="mb-24 text-left">
                             <p className="text-5xl text-white"> 3elegant </p>
                         </div>
-                        <div>
+                        <div clas>
                             <p className="text-2xl"> Figma to Shopify theme</p>
                             <a href="https://www.figma.com/file/X17LnpYmfuNzNC7Ioy56al/3legant-E-Commerce-UI-Design-Template-(Community)?type=design&node-id=4%3A11181&mode=dev" className="underline">
                                 <small>Figma URL</small>

@@ -35,13 +35,12 @@ body::-webkit-scrollbar {
     padding: 0 2em;
 
     h1 {
-        font-size: 2rem;
+
         margin: 0;
         letter-spacing: 1rem;
     }
 
     h3 {
-        font-size: 1rem;
         letter-spacing: 0.3rem;
         opacity: 0.6;
     }
@@ -87,12 +86,10 @@ body::-webkit-scrollbar {
 
 
 .et-main .dev-name {
-    display: block;
     color: white;
     font-family: "Anton", serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 120px;
 
 }
 
@@ -132,4 +129,9 @@ img {
     100% {
         transform: translatex(-144vw);
     }
+}
+
+.arquee-container {
+    max-width: 100vw;
+    overflow: hidden;
 }
