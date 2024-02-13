@@ -10,14 +10,12 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="homepage">
-      <div className="container">
+    <div className="container">
 
-        <div className="hero-section">
-          <Hero />
-        </div>
-
+      <div className="hero-section min-h-screen my-[100px]">
+        <Hero />
       </div>
+
     </div>
   );
 }

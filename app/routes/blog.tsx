@@ -1,4 +1,4 @@
-export const meta: MetaFunction = () => {
+export const meta = () => {
     return [
         { title: "Comming Soon" },
         { name: "description", content: "Shopify Developer based in morocco" },

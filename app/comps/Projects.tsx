@@ -7,7 +7,7 @@ export default function Products() {
                         <div className="mb-24 text-left">
                             <p className="text-5xl text-white"> 3elegant </p>
                         </div>
-                        <div clas>
+                        <div>
                             <p className="text-2xl"> Figma to Shopify theme</p>
                             <a href="https://www.figma.com/file/X17LnpYmfuNzNC7Ioy56al/3legant-E-Commerce-UI-Design-Template-(Community)?type=design&node-id=4%3A11181&mode=dev" className="underline">
                                 <small>Figma URL</small>

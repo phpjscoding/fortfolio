@@ -5,7 +5,7 @@ export const meta = () => {
     ];
 };
 
-export default function About() {
+export default function Blog() {
     return (
 
         <section className="et-slide flex-none w-screen bg-amber-400" id="blog">
