@@ -5,9 +5,12 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLocation
 } from "@remix-run/react";
+import Swup from 'swup';
 
 import stylesheet from "./tailwind.css";
+import { useEffect } from "react";
 // import Header from './comps/Header'
 export const links = () => [
   { rel: "stylesheet", href: stylesheet },
@@ -18,6 +21,14 @@ export const links = () => [
 // import Header from "./comps/Header";
 
 export default function App() {
+  const location = useLocation();
+  const isBlogRoute = location.pathname.includes('/blog/');
+  console.log(isBlogRoute, 'isblogroute')
+  const class1 = "h-screen flex flex-col"
+  useEffect(() => {
+    const swup = new Swup();
+  }, []);
+
   return (
     <html lang="en">
       <head>
@@ -32,7 +43,7 @@ export default function App() {
       </head>
       <body>
 
-        <div className="h-screen flex flex-col">
+        <div className={`${class1} ${isBlogRoute ? '' : 'transition-fade'}`} id="swup">
           <Outlet />
         </div>
         <div className="et-hero-tabs-container fixed bottom-0 w-full">
